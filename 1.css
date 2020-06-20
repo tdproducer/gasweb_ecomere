@@ -20,10 +20,17 @@
     color: white;
 }
 .top-1{
-    height: 150px;
+    height: 130px;
     width: 100%;
     background-color: #0a121f;
     text-align: center;
+}
+.top-1-line{
+    width: 150px;
+    height: 0.5px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
 }
 .animate-text-1{
     color: white;
@@ -39,7 +46,6 @@
 .slide-1{
     height: 370px;
     width: 100%;
-    background-color: red;
     animation: slide-1 10s linear alternate infinite ;
 }
 @keyframes slide-1{
